@@ -183,11 +183,34 @@ $(function () {
 document.addEventListener("DOMContentLoaded", () => {
   const lenis = new Lenis();
 
-  lenis.on('scroll', ScrollTrigger.update);
+  lenis.on("scroll", ScrollTrigger.update);
 
   gsap.ticker.add((time) => {
     lenis.raf(time * 1000); // Convert time from seconds to milliseconds
   });
 
   gsap.ticker.lagSmoothing(0);
+});
+document.addEventListener("DOMContentLoaded", () => {
+  gsap.from(".hero-shape-1", {
+    opacity: 0,
+    y: -100,
+    duration: 1,
+    ease: "power2.out",
+    delay: 0.2,
+  });
+
+  gsap.from(".hero-shape-2", {
+    opacity: 0,
+    y: 100,
+    duration: 1,
+    ease: "power2.out",
+    delay: 0.4,
+  });
+
+  gsap.registerPlugin(ScrollTrigger);
+
+
+
+
 });
