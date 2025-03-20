@@ -804,6 +804,9 @@ section {
 }
 
 /* contact */
+.contact_section{
+  background-color: #fff;
+}
 .leftContact {
   width: 100%;
   height: 520px;
@@ -1088,4 +1091,164 @@ section {
 }
 .team-content {
   padding: 40px;
+}
+
+/* benifits */
+.benifits_section {
+  background-color: #ff603c13;
+  position: relative;
+  overflow: hidden;
+}
+.benifits_section .badge {
+  position: relative;
+  display: inline-block;
+  color: var(--primary-color);
+  font-size: 12px;
+  line-height: 22px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  margin-bottom: 10px;
+  background-color: #ffffff;
+  padding: 4px 20px 3px;
+  border-radius: 15px;
+}
+
+.benifits_section .benifits_img {
+  width: 100%;
+}
+.benifits_section .benifits_img img {
+  width: 100%;
+}
+
+.benifits_section .shap-1 {
+  bottom: -120px;
+  left: 250px;
+  position: absolute;
+  width: 150px;
+  height: 200px;
+  background: #9b9999ce;
+  z-index: 1;
+  border-top-right-radius: 200px;
+  border-top-left-radius: 200px;
+  rotate: 33deg;
+  animation: moveUpDown 5s infinite alternate ease-in-out;
+  mix-blend-mode: multiply;
+}
+.benifits_section .shap-2 {
+  bottom: -120px;
+  left: -20px;
+  position: absolute;
+  width: 250px;
+  height: 350px;
+  background: #ff603cce;
+  z-index: 1;
+  border-top-right-radius: 200px;
+  border-top-left-radius: 200px;
+  rotate: 33deg;
+  animation: moveUpDown 5s infinite alternate ease-in-out;
+  mix-blend-mode: multiply;
+}
+
+.benifits_section .item_why {
+  padding: 20px;
+  border: 2px solid #ff603c91;
+  border-radius: 20px;
+  overflow: hidden;
+  position: relative;
+  background-color: #ffffff46;
+}
+.benifits_section .item_why::after {
+  position: absolute;
+  content: url(../images/all-shape.png);
+  z-index: 2;
+  top: -50%;
+  right: -50%;
+  rotate: -50deg;
+  width: 220px;
+}
+.benifits_section .item_why img {
+  width: 50px;
+  margin-bottom: 20px;
+}
+
+/* testimonial */
+.testimonial {
+  background-color: #ff603c13;
+  position: relative;
+  overflow: hidden;
+}
+.testimonial .badge {
+  position: relative;
+  display: inline-block;
+  color: var(--primary-color);
+  font-size: 12px;
+  line-height: 22px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  margin-bottom: 10px;
+  background-color: #ffffff;
+  padding: 4px 20px 3px;
+  border-radius: 15px;
+}
+
+.testimonial_slider .item_testimonial {
+  padding: 40px;
+  background-color: #fff;
+
+  transition: all 0.5s ease;
+}
+
+.testimonial_slider .item_testimonial .content {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 0.3fr 1.7fr;
+  align-items: center;
+}
+.testimonial_slider .item_testimonial .content img {
+  outline: 2px solid var(--primary-color);
+  border-radius: 100%;
+  outline-offset: 4px;
+}
+.testimonial_slider .item_testimonial .quote_icon {
+  position: absolute;
+  bottom: 50px;
+  right: 50px;
+}
+.testimonial-pagination .swiper-pagination-bullet-active {
+  background-color: var(--primary-color);
+}
+
+.testmonial_btn button {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--primary-color);
+  border-width: initial;
+  border-style: none;
+  border-color: initial;
+  border-image: initial;
+  background: rgb(255, 255, 255);
+  border-radius: 100%;
+  font-size: 20px;
+}
+.testmonial_btn button:hover {
+  background-color: var(--primary-color);
+  color: #fff;
+}
+
+.testimonial .shape-1 {
+  position: absolute;
+  top: -269px;
+  left: 0;
+  height: 770px;
+  width: 360px;
+  background-color: #faefeb;
+  border-radius: 160px;
+  transform: rotate(-37deg);
+  z-index: -1;
+  animation: moveLeftRight 5s infinite alternate ease-in-out;
 }

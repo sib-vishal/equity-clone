@@ -367,7 +367,7 @@ $services = [
             </div>
         </section>
 
-
+        <!-- conference -->
         <section class="conference">
             <div class="containerFull">
                 <div class="row">
@@ -411,6 +411,76 @@ $services = [
                 </div>
             </div>
         </section>
+
+        <!-- our benifits -->
+        <section class="benifits_section">
+            <div class="containerFull">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="benifits_img">
+
+                            <img src="images/why.jpg" alt="" />
+                        </div>
+
+                    </div>
+                    <div class="col-lg-6 ps-lg-5">
+                        <p class="badge">
+                            Our Benifits
+                        </p>
+
+                        <h4 class="fontHeading fontWeight700 heading mt-4 text_secondary">
+                            Why Choose Our Consultancy
+
+                        </h4>
+
+                        <p class="mt-4 text_gray">
+                            There are many variations of passages of but the majority have in some form, by injected
+                            humou or words which don't look even slightly believable of but the majority have suffered.
+                        </p>
+
+                        <div class="row mt-5">
+                            <div class="col-lg-6">
+                                <div class="item_why">
+
+                                    <img src="images/icons/wealth.png" alt="" />
+                                    <h4 class="fontHeading fontWeight600">
+                                        Wealth <br />
+                                        Management
+                                    </h4>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="item_why">
+
+                                    <img src="images/icons/wealth.png" alt="" />
+                                    <h4 class="fontHeading fontWeight600">
+                                        Finance
+                                        <br />
+                                        Consulting
+                                    </h4>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="shap-1">
+
+            </div>
+            <div class="shap-2">
+
+            </div>
+        </section>
+
+
+
         <!-- our team -->
         <?php
         $team = [
@@ -434,14 +504,14 @@ $services = [
                 "title" => ["Emily", "Davis"],
                 "image" => "images/team.jpg",
             ],
-           
+
         ];
         ?>
 
         <section>
             <div class="containerFull">
-            <h3 class="fontHeading fontWeight700 heading mt-4 text_secondary text-center">
-                   Meet Our Team
+                <h3 class="fontHeading fontWeight700 heading mt-4 text_secondary text-center">
+                    Meet Our Team
                 </h3>
 
                 <div class="row mt-5 ">
@@ -455,10 +525,10 @@ $services = [
                                     <span class="category"><?= htmlspecialchars($member["category"]); ?></span>
                                     <h3 class="mt-2 text-white">
                                         <?= isset($member["title"][0]) ? htmlspecialchars($member["title"][0]) : ""; ?>
-                                       
+
                                         <?= isset($member["title"][1]) ? htmlspecialchars($member["title"][1]) : ""; ?>
                                     </h3>
-                                   
+
                                 </div>
                             </div>
                         </div>
@@ -469,8 +539,107 @@ $services = [
 
             </div>
         </section>
+        <!-- testimonial -->
+        <?php
+        $testimonials = [
+            [
+                "text" => "I was truly impressed by the exceptional service provided by the company. Their attention to detail and commitment to quality made all the difference. From the initial consultation to the final delivery, everything was seamless. The team went above and beyond to ensure my needs were met. I highly recommend their services to anyone looking for professionalism and excellence",
+                "client_name" => "Mike Hardson",
+                "client_title" => "Customer",
+                "client_image" => "images/avtaar.png",
+                "quote_icon" => "images/quote-icon.png"
+            ],
+            [
+                "text" => "I was truly impressed by the exceptional service provided by the company. Their attention to detail and commitment to quality made all the difference. From the initial consultation to the final delivery, everything was seamless. The team went above and beyond to ensure my needs were met. I highly recommend their services to anyone looking for professionalism and excellence",
+                "client_name" => "Mike Hardson",
+                "client_title" => "Customer",
+                "client_image" => "images/avtaar.png",
+                "quote_icon" => "images/quote-icon.png"
+            ],
+            [
+                "text" => "I was truly impressed by the exceptional service provided by the company. Their attention to detail and commitment to quality made all the difference. From the initial consultation to the final delivery, everything was seamless. The team went above and beyond to ensure my needs were met. I highly recommend their services to anyone looking for professionalism and excellence",
+                "client_name" => "Mike Hardson",
+                "client_title" => "Customer",
+                "client_image" => "images/avtaar.png",
+                "quote_icon" => "images/quote-icon.png"
+            ],
 
-        <section class="bg-gray-light">
+        ]; ?>
+        <section class="testimonial">
+            <div class="shape-1"></div>
+            <div class="containerFull">
+                <div class="row">
+                    <div class="col-lg-5">
+                        <p class="badge">
+                            Our testimonials
+                        </p>
+
+                        <h4 class="fontHeading fontWeight700 heading mt-4 text_secondary">
+                            What They’re Saying About Agency
+
+                        </h4>
+
+                        <p class="mt-4 text_gray">
+                            Real stories from real clients <br/>see what makes us their preferred choice!
+
+                        </p>
+
+                        <div class="testmonial_btn  d-flex gap-3 mt-4 ">
+                            <button class="testmonial-prev shadow ">
+                                <i class="fa-solid fa-angle-left"></i>
+                            </button>
+                            <button class="testmonial-next  shadow">
+                                <i class="fa-solid fa-angle-right"></i>
+                            </button>
+
+                        </div>
+
+
+                    </div>
+                    <div class="col-lg-7">
+                        <div class="testimonial_slider swiper ">
+                            <div class="swiper-wrapper">
+                                <?php foreach ($testimonials as $testimonial): ?>
+                                    <div class="swiper-slide">
+                                        <div class="item_testimonial ">
+
+                                            <p class="text_gray"><?php echo $testimonial["text"]; ?></p>
+                                            <div class="content mt-4">
+
+                                                <img src="<?php echo $testimonial["client_image"]; ?>" alt="">
+                                                <div class="content_text">
+                                                    <h4 class="fontHeading fontWeight600">
+                                                        <?php echo $testimonial["client_name"]; ?>
+                                                    </h4>
+                                                    <p class="text_primary"><?php echo $testimonial["client_title"]; ?></p>
+                                                </div>
+                                            </div>
+                                            <div class="quote_icon">
+                                                <img src="<?php echo $testimonial["quote_icon"]; ?>" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                <?php endforeach; ?>
+                            </div>
+
+                            <!-- Swiper Pagination & Navigation -->
+                            <!-- <div class="swiper-pagination"></div>
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div> -->
+                        </div>
+                        <div class="testimonial-pagination d-flex justify-content-center mt-3">
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="contact_section">
             <div class="containerFull">
                 <div class="row">
                     <div class="col-lg-6   order-2 order-lg-1  mt-5 mt-lg-0">
@@ -538,6 +707,50 @@ $services = [
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
 
+    <script>
+        var swiper = new Swiper(".testimonial_slider", {
+            spaceBetween: 30,
+
+            slidesPerView: 1.5,
+            loop: true,
+            autoplay: {
+                delay: 5000,
+                disableOnInteraction: false,
+            },
+
+            // breakpoints: {
+
+            //     320: {
+            //         slidesPerView: 2,
+            //         spaceBetween: 10
+            //     },
+
+            //     480: {
+            //         slidesPerView: 2,
+            //         spaceBetween: 20
+            //     },
+
+            //     640: {
+            //         slidesPerView: 3,
+            //         spaceBetween: 30
+            //     },
+
+            //     768: {
+            //         slidesPerView: 4,
+            //         spaceBetween: 30
+            //     }
+            // }
+            pagination: {
+                el: ".testimonial-pagination",
+                clickable: true,
+            },
+
+            navigation: {
+                nextEl: ".testmonial-next",
+                prevEl: ".testmonial-prev",
+            },
+        });
+    </script>
     <script>
         var swiper = new Swiper(".universities_slider", {
             spaceBetween: 10,
