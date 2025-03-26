@@ -25,13 +25,11 @@ $services = [
 
 ?>
 
-
-
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
-    <title>Equity Clone </title>
+    <title>Home | Kingfield </title>
     <?php include 'include/head-links.php'; ?>
     <meta property="og:url" content="<?php echo $page_url ?>">
     <meta property="og:title" content="">
@@ -184,12 +182,12 @@ $services = [
                                 Get to Know Us
                             </p>
                             <h2 class="fontHeading fontWeight700 heading mt-4 text_secondary">
-                                About Equity Vantage Limited
+                                About Kingfield
 
                             </h2>
 
                             <p class="mt-4 text_gray">
-                                At Equity Vantage Limited, we believe in empowering businesses and individuals with
+                                At Kingfield, we believe in empowering businesses and individuals with
                                 accurate financial intelligence. With our expertise in forensic investigation, we
                                 provide deep insights that help clients make informed decisions. Our team ensures that
                                 every analysis is thorough, precise, and tailored to secure your financial well-being.
@@ -383,18 +381,18 @@ $services = [
                         </h4>
                         <p class="mt-4">
 
-                            At Equity Vantage Limited, we value our clients and partners. Our global conferences bring
+                            At Kingfield, we value our clients and partners. Our global conferences bring
                             together
                             industry leaders to foster meaningful collaborations and long-lasting business
                             relationships.aborations and long-lasting business
                         </p>
                         <p class="mt-4">
 
-                            At Equity Vantage Limited, we value our clients and partners. Our global conferences bring
+                            At Kingfield, we value our clients and partners. Our global conferences bring
                             together
                             industry leaders to foster meaningful collaborations and long-lasting business
                             relationships.
-                            At Equity Vantage Limited, we value our clients and partners. Our global conferences bring
+                            At Kingfield, we value our clients and partners. Our global conferences bring
                             together
                             industry leaders to foster meaningful collaborations and long-lasting business
                             relationships.

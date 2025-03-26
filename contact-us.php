@@ -1,37 +1,9 @@
-<?php $page = 'contact-us';
-
-$services = [
-    [
-        "title" => "Forensic Accounting & Investigations",
-        "description" => "We analyze financial data, detect inconsistencies, and provide clear insights into market trends to support legal and business decisions.",
-        "link" => "Learn More"
-    ],
-    [
-        "title" => "Risk Management",
-        "description" => "Our experts assess potential financial risks and develop strategic solutions to mitigate them, ensuring stability for businesses and individuals.",
-        "link" => "Learn More"
-    ],
-    [
-        "title" => "Insurance Disputes",
-        "description" => "We provide expert analysis and advisory services to navigate complex insurance disputes, ensuring fair outcomes for our clients.",
-        "link" => "Learn More"
-    ],
-    [
-        "title" => "Legal Mitigation",
-        "description" => "Our team facilitates negotiations and settlements, helping opposing parties reach fair and practical resolutions.",
-        "link" => "Learn More"
-    ]
-];
-
-?>
-
-
-
+<?php $page = 'contact-us'; ?>
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
-    <title>Contact Us | Equity Clone </title>
+    <title>Contact Us | Kingfield </title>
     <?php include 'include/head-links.php'; ?>
     <meta property="og:url" content="<?php echo $page_url ?>">
     <meta property="og:title" content="">
@@ -52,14 +24,20 @@ $services = [
 
         <div class="page_banner ">
             <div class="containerFull">
-                <h1 class="text-center fontHeading heading fontWeight700 text-white">
+                <h1 class=" fontHeading heading fontWeight700 text-white">
                     Contact Us
 
                 </h1>
-                <p class="text-center mt-3  text-white ">
+                <p class=" mt-3  text-white ">
                     Home / Contact Us
 
                 </p>
+
+            </div>
+            <div class="shap-1">
+
+            </div>
+            <div class="shap-2">
 
             </div>
 
@@ -189,7 +167,7 @@ $services = [
         <div>
             <iframe class="w-100"
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d201411.07131473965!2d72.71412525687607!3d19.08280670615086!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c6306644edc1%3A0x5da4ed8f8d648c69!2sMumbai%2C%20Maharashtra!5e1!3m2!1sen!2sin!4v1742375362808!5m2!1sen!2sin"
-                 height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                height="450" style="border:0;" allowfullscreen="" loading="lazy"
                 referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
 
