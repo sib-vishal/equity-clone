@@ -3,7 +3,7 @@
 <html lang="en">
 
 <head>
-    <title>Contact Us | Kingfield </title>
+    <title>Contact Us | Rockwater Accountant </title>
     <?php include 'include/head-links.php'; ?>
     <meta property="og:url" content="<?php echo $page_url ?>">
     <meta property="og:title" content="">
@@ -100,7 +100,10 @@
                                         Mail Address
                                     </h5>
                                     <p>
-                                        info@company.com
+                                        contact@Rockwateraccountantshk.com
+                                    </p>
+                                    <p>
+                                       info@rockwatercapitalhk.com
                                     </p>
 
                                 </div>

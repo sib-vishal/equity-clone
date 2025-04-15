@@ -3,21 +3,25 @@
 $services = [
     [
         "title" => "Forensic Accounting & Investigations",
+        "image" => "images/forensic.jpg",
         "description" => "We analyze financial data, detect inconsistencies, and provide clear insights into market trends to support legal and business decisions.",
         "link" => "Learn More"
     ],
     [
         "title" => "Risk Management",
+        "image" => "images/risk-management.jpg",
         "description" => "Our experts assess potential financial risks and develop strategic solutions to mitigate them, ensuring stability for businesses and individuals.",
         "link" => "Learn More"
     ],
     [
         "title" => "Insurance Disputes",
+        "image" => "images/insurance.jpg",
         "description" => "We provide expert analysis and advisory services to navigate complex insurance disputes, ensuring fair outcomes for our clients.",
         "link" => "Learn More"
     ],
     [
         "title" => "Legal Mitigation",
+        "image" => "images/127.jpg",
         "description" => "Our team facilitates negotiations and settlements, helping opposing parties reach fair and practical resolutions.",
         "link" => "Learn More"
     ]
@@ -29,7 +33,7 @@ $services = [
 <html lang="en">
 
 <head>
-    <title>Home | Kingfield </title>
+    <title>Home | Rockwater Accountant </title>
     <?php include 'include/head-links.php'; ?>
     <meta property="og:url" content="<?php echo $page_url ?>">
     <meta property="og:title" content="">
@@ -40,6 +44,7 @@ $services = [
     <meta name="twitter:title" content="">
     <meta name="twitter:description" content="">
     <meta name="twitter:image" content="images/logo.png">
+    <link rel="preload" as="image" href="images/banner2.jpg" type="image/jpeg">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 
 </head>
@@ -182,12 +187,12 @@ $services = [
                                 Get to Know Us
                             </p>
                             <h2 class="fontHeading fontWeight700 heading mt-4 text_secondary">
-                                About Kingfield
+                                About Rockwater Accountant
 
                             </h2>
 
                             <p class="mt-4 text_gray">
-                                At Kingfield, we believe in empowering businesses and individuals with
+                                At Rockwater Accountant, we believe in empowering businesses and individuals with
                                 accurate financial intelligence. With our expertise in forensic investigation, we
                                 provide deep insights that help clients make informed decisions. Our team ensures that
                                 every analysis is thorough, precise, and tailored to secure your financial well-being.
@@ -255,7 +260,7 @@ $services = [
                     <?php foreach ($services as $service): ?>
                         <div class="col-lg-6 mb-4">
                             <div class="item_services">
-                                <img src="images/127.jpg" alt="">
+                                <img src="<?php echo $service['image']; ?>" alt="">
 
                                 <div class="content">
                                     <h4 class="text-white fontHeading sub_heading"><?php echo $service['title']; ?></h4>
@@ -337,7 +342,7 @@ $services = [
         ];
         ?>
 
-        <section>
+       <!-- <section>
             <div class="containerFull">
                 <h3 class="fontHeading fontWeight700 heading mt-4 text_secondary text-center">
                     New Case Studies
@@ -363,7 +368,7 @@ $services = [
 
 
             </div>
-        </section>
+        </section>-->
 
         <!-- conference -->
         <section class="conference">
@@ -381,18 +386,18 @@ $services = [
                         </h4>
                         <p class="mt-4">
 
-                            At Kingfield, we value our clients and partners. Our global conferences bring
+                            At Rockwater Accountant, we value our clients and partners. Our global conferences bring
                             together
                             industry leaders to foster meaningful collaborations and long-lasting business
                             relationships.aborations and long-lasting business
                         </p>
                         <p class="mt-4">
 
-                            At Kingfield, we value our clients and partners. Our global conferences bring
+                            At Rockwater Accountant, we value our clients and partners. Our global conferences bring
                             together
                             industry leaders to foster meaningful collaborations and long-lasting business
                             relationships.
-                            At Kingfield, we value our clients and partners. Our global conferences bring
+                            At Rockwater Accountant, we value our clients and partners. Our global conferences bring
                             together
                             industry leaders to foster meaningful collaborations and long-lasting business
                             relationships.
@@ -506,7 +511,7 @@ $services = [
         ];
         ?>
 
-        <section>
+        <!-- <section>
             <div class="containerFull">
                 <h3 class="fontHeading fontWeight700 heading mt-4 text_secondary text-center">
                     Meet Our Team
@@ -536,7 +541,7 @@ $services = [
                 </div>
 
             </div>
-        </section>
+        </section> -->
         <!-- testimonial -->
         <?php
         $testimonials = [

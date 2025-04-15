@@ -4,11 +4,15 @@
 			<div class="col-lg-4">
 				<div class="itemFooter pe-lg-5">
 					<div class="footer-logo">
-						<img src="images/logo.png" alt="" />
+						<img src="images/logo3.png" alt="" />
 					</div>
 					<p>We build strong global client relationships by assessing each case with a professional approach,
 						ensuring positive outcomes. Our expert team provides detailed insights and forensic analysis,
 						delivering clarity and confidence in every engagement.</p>
+						
+						<h5 class="mt-3 text-white">
+						 License Number : BRN 72517736 (Rockwater Limited)
+						</h5>
 					<div class="socialLink">
 						<ul>
 							<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
@@ -71,7 +75,7 @@
 							</div>
 							<div class="rightContact">
 								<small>Email</small>
-								<p> <a href="mailto:legal@fastsolutions.in">info@company.in</a></p>
+								<p> <a href="mailto:contact@Rockwateraccountantshk.com">contact@Rockwateraccountantshk.com</a></p>
 							</div>
 						</div>
 					</div>
@@ -84,7 +88,7 @@
 <div class="copyRight">
 	<div class=" containerFull">
 		<div class="d-flex flex-wrap align-items-center justify-content-center">
-			<p class="textFooter">© 2025 Company. All rights reserved.</p>
+			<p class="textFooter">© 2025 Rockwater Accountent. All rights reserved.</p>
 			<div class="credits d-none">
 				Designed &amp; Developed by <a class="text-dark" target="_blank"
 					href="http://sibinfotech.com/"><strong>SIB Infotech</strong></a>

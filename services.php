@@ -3,7 +3,7 @@
 <html lang="en">
 
 <head>
-    <title>Services | Kingfield </title>
+    <title>Services | Rockwater Accountant </title>
     <?php include 'include/head-links.php'; ?>
     <meta property="og:url" content="<?php echo $page_url ?>">
     <meta property="og:title" content="">
@@ -43,22 +43,22 @@
             $services = [
                 [
                     "title" => "Forensic Accounting & Investigations",
-                    "description" => "At King Field, our forensic accounting experts meticulously analyze financial records, uncovering discrepancies and identifying fraudulent activities. By assessing current market trends and financial data, we provide clients with accurate, in-depth reports that support legal proceedings, corporate audits, and financial decision-making. Our investigations help businesses and individuals safeguard their financial interests with clarity and confidence.",
+                    "description" => "At Rockwater Accountant, our forensic accounting experts meticulously analyze financial records, uncovering discrepancies and identifying fraudulent activities. By assessing current market trends and financial data, we provide clients with accurate, in-depth reports that support legal proceedings, corporate audits, and financial decision-making. Our investigations help businesses and individuals safeguard their financial interests with clarity and confidence.",
                     "image" => "forensic.jpg"
                 ],
                 [
                     "title" => "Risk Management",
-                    "description" => "Understanding and mitigating risk is essential in today’s dynamic financial landscape. Our team at King Field consists of experienced professionals with a proven track record in evaluating potential risks across various industries. We conduct comprehensive risk assessments, identifying vulnerabilities and providing strategic solutions to minimize exposure. Whether it’s financial, operational, or reputational risk, we equip our clients with the tools to make informed, proactive decisions.",
+                    "description" => "Understanding and mitigating risk is essential in today’s dynamic financial landscape. Our team at Rockwater Accountant consists of experienced professionals with a proven track record in evaluating potential risks across various industries. We conduct comprehensive risk assessments, identifying vulnerabilities and providing strategic solutions to minimize exposure. Whether it’s financial, operational, or reputational risk, we equip our clients with the tools to make informed, proactive decisions.",
                     "image" => "risk.jpg"
                 ],
                 [
                     "title" => "Insurance Disputes",
-                    "description" => "Navigating insurance disputes can be complex, with policy interpretations and claim settlements often leading to legal conflicts. At King Field, we specialize in analyzing insurance claims, identifying discrepancies, and providing expert advisory services to ensure fair outcomes. Whether for corporate entities or individual clients, our expertise in insurance dispute resolution helps achieve equitable settlements while minimizing financial losses.",
+                    "description" => "Navigating insurance disputes can be complex, with policy interpretations and claim settlements often leading to legal conflicts. At Rockwater Accountant, we specialize in analyzing insurance claims, identifying discrepancies, and providing expert advisory services to ensure fair outcomes. Whether for corporate entities or individual clients, our expertise in insurance dispute resolution helps achieve equitable settlements while minimizing financial losses.",
                     "image" => "insurence.jpg"
                 ],
                 [
                     "title" => "Legal Mitigation",
-                    "description" => "Disputes and legal conflicts can be costly and time-consuming. At King Field, we act as strategic advisors, helping parties navigate legal challenges efficiently. Our team facilitates negotiations, mediation, and structured settlements to ensure fair and practical resolutions. By focusing on collaboration and conflict resolution, we assist businesses and individuals in reaching mutually beneficial agreements while avoiding prolonged litigation.",
+                    "description" => "Disputes and legal conflicts can be costly and time-consuming. At Rockwater Accountant, we act as strategic advisors, helping parties navigate legal challenges efficiently. Our team facilitates negotiations, mediation, and structured settlements to ensure fair and practical resolutions. By focusing on collaboration and conflict resolution, we assist businesses and individuals in reaching mutually beneficial agreements while avoiding prolonged litigation.",
                     "image" => "legal.jpg"
                 ]
             ];

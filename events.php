@@ -3,7 +3,7 @@
 <html lang="en">
 
 <head>
-    <title>Events | Kingfield </title>
+    <title>Events | Rockwater Accountant </title>
     <?php include 'include/head-links.php'; ?>
     <meta property="og:url" content="<?php echo $page_url ?>">
     <meta property="og:title" content="">
@@ -52,18 +52,18 @@
                     </h4>
                     <p class="mt-4">
 
-                        At Kingfield, we value our clients and partners. Our global conferences bring
+                        At Rockwater Accountant, we value our clients and partners. Our global conferences bring
                         together
                         industry leaders to foster meaningful collaborations and long-lasting business
                         relationships.aborations and long-lasting business
                     </p>
                     <p class="mt-4">
 
-                        At Kingfield, we value our clients and partners. Our global conferences bring
+                        At Rockwater Accountant, we value our clients and partners. Our global conferences bring
                         together
                         industry leaders to foster meaningful collaborations and long-lasting business
                         relationships.
-                        At Kingfield, we value our clients and partners. Our global conferences bring
+                        At Rockwater Accountant, we value our clients and partners. Our global conferences bring
                         together
                         industry leaders to foster meaningful collaborations and long-lasting business
                         relationships.

@@ -1,9 +1,44 @@
-<?php $page = 'about-us'; ?>
+<?php $page = 'about-us';
+
+$financialTeam = [
+    [
+        'name' => 'James Rickhart',
+        'position' => 'Senior Financial Project Manager',
+        'img' => 'images/james-rickhart.png',
+        'bio' => 'With over 15 years of experience in financial project management, James Rickhart specializes in overseeing large-scale financial initiatives, ensuring efficiency, accuracy, and risk mitigation. His background in finance and business strategy allows him to streamline budgeting, forecasting, and investment planning. Known for his ability to lead cross-functional teams, he excels in driving financial projects that maximize profitability and long-term business growth.'
+    ],
+    [
+        'name' => 'Matthew Sheridan',
+        'position' => 'International Finance Liaison Manager',
+        'img' => 'images/seridon.png',
+        'bio' => 'An expert in global finance and cross-border business relations, Matthew Sheridan facilitates seamless financial operations between multinational organizations. With extensive experience in international markets, foreign investments, and financial regulatory compliance, he ensures smooth financial transactions and strategic partnerships across borders. His expertise in risk analysis and financial diplomacy makes him a vital link in global financial negotiations.'
+    ],
+    [
+        'name' => 'Charles Fischer',
+        'position' => 'Senior Business & Financial Operations Manager',
+        'img' => 'images/fisher.png',
+        'bio' => 'A results-driven financial operations leader, Charles Fischer specializes in optimizing financial workflows, improving cash flow management, and ensuring regulatory compliance. With over two decades of experience in business finance, he has successfully implemented cost-saving strategies and efficiency-driven financial models. His expertise in financial risk management and operational consulting makes him a key player in corporate financial stability and growth.'
+    ],
+    [
+        'name' => 'Andrew Chan Li',
+        'position' => 'Head of Financial Compliance & Risk Management',
+        'img' => 'images/andrew.png',
+        'bio' => 'As the Head of Financial Compliance, Andrew Chan Li ensures that financial operations adhere to global and local regulations, reducing risk exposure for the organization. His experience in regulatory frameworks, anti-money laundering (AML), and financial auditing makes him a key asset in safeguarding corporate financial integrity. His meticulous attention to detail and strategic approach to risk assessment help businesses maintain financial transparency and stability.'
+    ],
+    [
+        'name' => 'Ben Xiang Lei',
+        'position' => 'Head of Legal & Financial Advisory',
+        'img' => 'images/ben.png',
+        'bio' => 'An expert in corporate finance law, Ben Xiang Lei leads the legal and financial advisory division, ensuring that all transactions, contracts, and mergers align with financial regulatory standards. With a deep understanding of corporate governance, risk mitigation, and financial compliance, he provides strategic counsel to safeguard assets and minimize legal exposure. His expertise in financial dispute resolution and contract negotiation ensures the company operates within a secure and optimized legal framework.'
+    ]
+];
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
-    <title>About Us | Kingfield </title>
+    <title>About Us | Rockwater Accountant </title>
     <?php include 'include/head-links.php'; ?>
     <meta property="og:url" content="<?php echo $page_url ?>">
     <meta property="og:title" content="">
@@ -64,12 +99,12 @@
                             Who We Are
                         </p>
                         <h2 class="fontHeading fontWeight700 heading mt-4 text_secondary">
-                            About Kingfield
+                            About Rockwater Accountant
 
                         </h2>
 
                         <p class="mt-4 text_gray">
-                            King Field is a globally accepted leader in financial intelligence and forensic
+                            Rockwater Accountant is a globally accepted leader in financial intelligence and forensic
                             investigation. Our firm operates on a philosophy of integrity, accuracy, and competence,
                             offering support to our clients in all intricate financial aspects with confidence. Our
                             professional personnel are committed and work diligently towards delivering comprehensive
@@ -161,7 +196,8 @@
 
                     <p class="mt-4">
 
-                        At King Field, our mission is to provide clients with clear, accurate, and insightful financial
+                        At Rockwater Accountant, our mission is to provide clients with clear, accurate, and insightful
+                        financial
                         intelligence. We understand the importance of trust and diligence in forensic investigations,
                         and our team is dedicated to maintaining the highest standards of professionalism. With a
                         client-first approach, we ensure that every case is handled with meticulous care, delivering
@@ -184,7 +220,7 @@
                 <div class="col-lg-10">
                     <h4 class="fontHeading fontWeight700 heading mt-4 text-white text-center">
 
-                    Secure Your Business with Risk Management Experts!
+                        Secure Your Business with Risk Management Experts!
                     </h4>
 
                     <div class="mt-5 d-flex justify-content-center">
@@ -202,6 +238,58 @@
 
         </div>
         <div class="shap-2">
+
+        </div>
+
+    </section>
+    <section>
+        <div class="containerFull">
+            <div class="text-center">
+                <p class="services-badge ">
+                    Our Team
+                </p>
+                <h2 class="fontHeading fontWeight700 heading mt-4 text_secondary">
+                    Meet Our Financial Experts
+                </h2>
+
+            </div>
+
+            <!-- <div class="row mt-5"> -->
+            <?php foreach ($financialTeam as $index => $member): ?>
+                <div class="col-lg-10 mx-auto">
+                    <div class="row mt-5 align-items-center">
+
+                        <?php if ($index % 2 === 0): ?>
+                            <!-- Text Left | Image Right -->
+                            <div class="col-lg-8 pe-lg-5">
+                                <h4 class="fontHeading fontWeight600 text_primary sub_heading"><?php echo $member['name']; ?>
+                                </h4>
+                                <p class="mt-2">- <?php echo $member['position']; ?></p>
+                                <p class="mt-2"><?php echo $member['bio']; ?></p>
+                            </div>
+                            <div class="col-lg-4">
+                                <img class="img-team" src="<?php echo $member['img']; ?>" alt="<?php echo $member['name']; ?>"
+                                    style="width: 100%;" />
+                            </div>
+
+                        <?php else: ?>
+                            <div class="col-lg-4">
+                                <img class="img-team" src="<?php echo $member['img']; ?>" alt="<?php echo $member['name']; ?>"
+                                    style="width: 100%;" />
+                            </div>
+                            <div class="col-lg-8 ps-lg-5">
+                                <h4 class="fontHeading fontWeight600 text_primary sub_heading"><?php echo $member['name']; ?>
+                                </h4>
+                                <p class="mt-2">- <?php echo $member['position']; ?></p>
+                                <p class="mt-2"><?php echo $member['bio']; ?></p>
+                            </div>
+                        <?php endif; ?>
+
+                    </div>
+                </div>
+            <?php endforeach; ?>
+
+            <!-- </div> -->
 
         </div>
 

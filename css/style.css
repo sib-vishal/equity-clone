@@ -328,8 +328,13 @@ section {
 }
 
 .footer-logo {
-  filter: invert();
+  /*filter: invert();*/
+  width:200px;
 }
+.footer-logo img{
+    width:100%;
+}
+
 .itemFooter h4 {
   color: #fff;
 }
@@ -1441,4 +1446,8 @@ section {
 .events-data{
   background-color: #ff603c13;
   scroll-margin-top: 80px;
+}
+
+.img-team{
+  border-radius: 20px;
 }
