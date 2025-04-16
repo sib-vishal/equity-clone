@@ -4,19 +4,21 @@ $financialTeam = [
     [
         'name' => 'James Rickhart',
         'position' => 'Senior Financial Project Manager',
-        'img' => 'images/james-rickhart.png',
+        'img' => 'images/seridon.png',
+        // 'img' => 'images/james-rickhart.png',
         'bio' => 'With over 15 years of experience in financial project management, James Rickhart specializes in overseeing large-scale financial initiatives, ensuring efficiency, accuracy, and risk mitigation. His background in finance and business strategy allows him to streamline budgeting, forecasting, and investment planning. Known for his ability to lead cross-functional teams, he excels in driving financial projects that maximize profitability and long-term business growth.'
     ],
     [
-        'name' => 'Matthew Sheridan',
+        'name' => 'Ben Sheridan',
+        // 'name' => 'Matthew Sheridan',
         'position' => 'International Finance Liaison Manager',
-        'img' => 'images/seridon.png',
+        'img' => 'images/fisher.png',
         'bio' => 'An expert in global finance and cross-border business relations, Matthew Sheridan facilitates seamless financial operations between multinational organizations. With extensive experience in international markets, foreign investments, and financial regulatory compliance, he ensures smooth financial transactions and strategic partnerships across borders. His expertise in risk analysis and financial diplomacy makes him a vital link in global financial negotiations.'
     ],
     [
         'name' => 'Charles Fischer',
         'position' => 'Senior Business & Financial Operations Manager',
-        'img' => 'images/fisher.png',
+        'img' => 'images/james-rickhart.png',
         'bio' => 'A results-driven financial operations leader, Charles Fischer specializes in optimizing financial workflows, improving cash flow management, and ensuring regulatory compliance. With over two decades of experience in business finance, he has successfully implemented cost-saving strategies and efficiency-driven financial models. His expertise in financial risk management and operational consulting makes him a key player in corporate financial stability and growth.'
     ],
     [
@@ -78,7 +80,7 @@ $financialTeam = [
     <section class="about-us-home" id="">
         <div class="containerFull">
             <div class="row">
-                <div class="col-lg-6">
+                <div class="col-lg-6 order-lg-2 order-2 mt-4 mt-lg-0">
                     <div class="img_box_about">
                         <div class="img_box_1">
                             <img src="images/about-1.jpg" alt="">
@@ -86,24 +88,20 @@ $financialTeam = [
                         <div class="img_box_2">
                             <img src="images/about-2.jpg" alt="">
                         </div>
-
-
                     </div>
-
-
                 </div>
-                <div class="col-lg-6 ps-lg-5">
+                <div class="col-lg-6 ps-lg-5 order-lg-2 order-1">
                     <div class="about_home_content">
 
                         <p class="badge">
                             Who We Are
                         </p>
-                        <h2 class="fontHeading fontWeight700 heading mt-4 text_secondary">
+                        <h2 class="fontHeading fontWeight700 heading mt-lg-4 mt-2 text_secondary">
                             About Rockwater Accountant
 
                         </h2>
 
-                        <p class="mt-4 text_gray">
+                        <p class="mt-lg-4  mt-3 text_gray">
                             Rockwater Accountant is a globally accepted leader in financial intelligence and forensic
                             investigation. Our firm operates on a philosophy of integrity, accuracy, and competence,
                             offering support to our clients in all intricate financial aspects with confidence. Our
@@ -146,50 +144,38 @@ $financialTeam = [
                     <p class="services-badge">
                         Our Aim
                     </p>
-                    <h2 class="fontHeading fontWeight700 heading mt-4 text_secondary">
+                    <h2 class="fontHeading fontWeight700 heading mt-lg-4 mt-3 text_secondary">
                         What We Stand For
-
                     </h2>
-
-                    <p class="mt-4">
+                    <p class="mt-lg-4 mt-3">
                         We strive to build strong, lasting relationships with our clients worldwide by approaching every
                         case with a high level of professionalism and precision. Our goal is to ensure that clients
                         fully understand their financial landscape, empowering them with clear insights and actionable
                         solutions. By working closely with each client, we break down complex financial details,
                         providing transparency and confidence in every step of the process.
                     </p>
-
-
-
                 </div>
-                <div class="col-lg-6 ">
+                <div class="col-lg-6  mt-4 mt-lg-0">
                     <div class="img_box">
                         <img src="images/about-aim.jpg" alt="">
                     </div>
-
                 </div>
-
-
             </div>
-
         </div>
-
     </section>
     <section class="our-aim">
         <div class="containerFull">
             <div class="row align-items-center">
-
-                <div class="col-lg-6 ">
+                <div class="col-lg-6 order-lg-1 order-2 mt-lg-0 mt-3 ">
                     <div class="img_box">
                         <img src="images/about-aim.jpg" alt="">
                     </div>
-
                 </div>
-                <div class="col-lg-6 ps-lg-5">
+                <div class="col-lg-6 ps-lg-5 order-lg-2 order-1 ">
                     <p class="services-badge">
                         Our Mission
                     </p>
-                    <h2 class="fontHeading fontWeight700 heading mt-4 text_secondary">
+                    <h2 class="fontHeading fontWeight700 heading mt-lg-4 mt-3 text_secondary">
                         Director's Foreword
 
                     </h2>
@@ -213,27 +199,19 @@ $financialTeam = [
         </div>
 
     </section>
-
     <section class="cta_1">
         <div class="containerFull">
             <div class="row justify-content-center">
                 <div class="col-lg-10">
                     <h4 class="fontHeading fontWeight700 heading mt-4 text-white text-center">
-
                         Secure Your Business with Risk Management Experts!
                     </h4>
-
-                    <div class="mt-5 d-flex justify-content-center">
+                    <div class="mt-lg-5 mt-3 d-flex justify-content-center">
                         <a href="#" class="btn_2 ms-3">Know More <i class="fa-solid fa-arrow-right ms-2"></i></a>
                     </div>
-
                 </div>
-
-
             </div>
-
         </div>
-
         <div class="shap-1">
 
         </div>
@@ -244,11 +222,11 @@ $financialTeam = [
     </section>
     <section>
         <div class="containerFull">
-            <div class="text-center">
+            <div class="text-center ">
                 <p class="services-badge ">
                     Our Team
                 </p>
-                <h2 class="fontHeading fontWeight700 heading mt-4 text_secondary">
+                <h2 class="fontHeading fontWeight700 heading mt-lg-4 mt-2 text_secondary">
                     Meet Our Financial Experts
                 </h2>
 
@@ -257,17 +235,17 @@ $financialTeam = [
             <!-- <div class="row mt-5"> -->
             <?php foreach ($financialTeam as $index => $member): ?>
                 <div class="col-lg-10 mx-auto">
-                    <div class="row mt-5 align-items-center">
+                    <div class="row mt-lg-5 mt-3 align-items-center">
 
                         <?php if ($index % 2 === 0): ?>
                             <!-- Text Left | Image Right -->
-                            <div class="col-lg-8 pe-lg-5">
+                            <div class="col-lg-8 pe-lg-5  mt-3 mt-lg-0 order-2 order-lg-1">
                                 <h4 class="fontHeading fontWeight600 text_primary sub_heading"><?php echo $member['name']; ?>
                                 </h4>
                                 <p class="mt-2">- <?php echo $member['position']; ?></p>
                                 <p class="mt-2"><?php echo $member['bio']; ?></p>
                             </div>
-                            <div class="col-lg-4">
+                            <div class="col-lg-4 order-1 order-lg-2">
                                 <img class="img-team" src="<?php echo $member['img']; ?>" alt="<?php echo $member['name']; ?>"
                                     style="width: 100%;" />
                             </div>
@@ -277,7 +255,7 @@ $financialTeam = [
                                 <img class="img-team" src="<?php echo $member['img']; ?>" alt="<?php echo $member['name']; ?>"
                                     style="width: 100%;" />
                             </div>
-                            <div class="col-lg-8 ps-lg-5">
+                            <div class="col-lg-8 ps-lg-5 mt-lg-0 mt-3">
                                 <h4 class="fontHeading fontWeight600 text_primary sub_heading"><?php echo $member['name']; ?>
                                 </h4>
                                 <p class="mt-2">- <?php echo $member['position']; ?></p>

@@ -78,13 +78,13 @@
                                 <p class="badge-contant">
                                     Our Services
                                 </p>
-                                <h4 class="fontHeading fontWeight700 heading mt-4 ">
+                                <h4 class="fontHeading fontWeight700 heading mt-lg-4 mt-2">
                                     <?php echo htmlspecialchars($service['title']); ?>
                                 </h4>
-                                <p class="mt-4"><?php echo htmlspecialchars($service['description']); ?></p>
+                                <p class="mt-lg-4 mt-3"><?php echo htmlspecialchars($service['description']); ?></p>
                             </div>
                         </div>
-                        <div class="col-lg-6">
+                        <div class="col-lg-6  mt-lg-0 mt-3">
                             <div class="service-card-img">
                                 <img src="images/<?php echo htmlspecialchars($service['image']); ?>"
                                     alt="<?php echo htmlspecialchars($service['title']); ?>">
@@ -94,25 +94,22 @@
                        
                     <?php else: ?>
                         <div class="shape-2">
-
                         </div>
-                   
-
-                        <div class="col-lg-6">
+                        <div class="col-lg-6 order-lg-1 order-2  mt-lg-0 mt-3">
                             <div class="service-card-img">
                                 <img src="images/<?php echo htmlspecialchars($service['image']); ?>"
                                     alt="<?php echo htmlspecialchars($service['title']); ?>">
                             </div>
                         </div>
-                        <div class="col-lg-6 ps-lg-5">
+                        <div class="col-lg-6 ps-lg-5  order-lg-2 order-1">
                             <div class="service-card">
                                 <p class="badge-contant">
                                     Our Services
                                 </p>
-                                <h4 class="fontHeading fontWeight700 heading mt-4 ">
+                                <h4 class="fontHeading fontWeight700 heading mt-lg-4 mt-2 ">
                                     <?php echo htmlspecialchars($service['title']); ?>
                                 </h4>
-                                <p class="mt-4"><?php echo htmlspecialchars($service['description']); ?></p>
+                                <p class="mt-lg-4 mt-3"><?php echo htmlspecialchars($service['description']); ?></p>
                             </div>
                         </div>
                     <?php endif; ?>
@@ -127,12 +124,12 @@
         <div class="containerFull">
             <div class="row justify-content-center">
                 <div class="col-lg-10">
-                    <h4 class="fontHeading fontWeight700 heading mt-4 text-white ">
+                    <h4 class="fontHeading fontWeight700 text-center heading mt-4 text-white ">
 
                         Expand Your Network at Our Global Conferences!
                     </h4>
 
-                    <div class="mt-5 d-flex justify-content-center">
+                    <div class="mt-lg-5 mt-3 d-flex justify-content-center">
                         <a href="#" class="btn_2 ms-3">Know More <i class="fa-solid fa-arrow-right ms-2"></i></a>
                     </div>
 

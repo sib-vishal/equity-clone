@@ -65,11 +65,11 @@ $services = [
                                 We specialize in uncovering financial discrepancies, assessing risks, and providing
                                 expert insights to help businesses and individuals safeguard their financial future.
                             </p>
-                            <div class="mt-5 ">
+                            <div class="mt-5 buttons_box ">
 
                                 <a href="#" class="btn_1"> <i class="fa-solid fa-calendar-check me-2"></i> <span>Book an
                                         Appointment</span></a>
-                                <a href="#" class="btn_2 ms-3">Know More <i
+                                <a href="#" class="btn_2 ms-md-3">Know More <i
                                         class="fa-solid fa-arrow-right ms-2"></i></a>
                             </div>
                         </div>
@@ -88,12 +88,12 @@ $services = [
 
                             welcome to our agency
                         </p>
-                        <h4 class="fontHeading fontWeight700 heading mt-4 text-white">
+                        <h4 class="fontHeading fontWeight700 heading mt-3 mt-md-4 text-white">
 
                             Secure & Safe Advices for your Small & Big Businesses
                         </h4>
                     </div>
-                    <div class="col-lg-6 ps-lg-5">
+                    <div class="col-lg-6 ps-lg-5 mt-4 mt-lg-0">
                         <div class="grid_states">
                             <div class="item_states">
                                 <h3>
@@ -107,7 +107,7 @@ $services = [
                             </div>
                             <div class="item_states">
                                 <h3>
-                                    853
+                                    25000+
 
                                 </h3>
                                 <p>
@@ -166,7 +166,7 @@ $services = [
         <section class="about-us-home" id="">
             <div class="containerFull">
                 <div class="row">
-                    <div class="col-lg-6">
+                    <div class="col-lg-6 order-lg-1 order-2 mt-5 mt-lg-0">
                         <div class="img_box_about">
                             <div class="img_box_1">
                                 <img src="images/about-1.jpg" alt="" />
@@ -180,13 +180,13 @@ $services = [
 
 
                     </div>
-                    <div class="col-lg-6 ps-lg-5">
+                    <div class="col-lg-6 ps-lg-5 order-lg-2 order-1">
                         <div class="about_home_content">
 
                             <p class="badge">
                                 Get to Know Us
                             </p>
-                            <h2 class="fontHeading fontWeight700 heading mt-4 text_secondary">
+                            <h2 class="fontHeading fontWeight700 heading mt-3 mt-lg-4 text_secondary">
                                 About Rockwater Accountant
 
                             </h2>
@@ -238,13 +238,13 @@ $services = [
                         <p class="services-badge">
                             Our Services
                         </p>
-                        <h3 class="fontHeading fontWeight700 heading mt-4 text_secondary">
+                        <h3 class="fontHeading fontWeight700 heading mt-3 mt-lg-4 text_secondary">
                             Explore Our Range of Expert Financial Solutions
                         </h3>
 
                     </div>
                     <div class="col-lg-6 ps-lg-5">
-                        <p class="mt-5">
+                        <p class="mt-3 mt-lg-5">
                             Our team of seasoned professionals brings a diverse skill set, enabling us to deliver expert
                             insights and tailored solutions across multiple industries. With extensive experience and a
                             deep understanding of various sectors, we ensure our clients receive the highest level of
@@ -298,7 +298,7 @@ $services = [
                             Creating Seamless and Memorable Experiences for Every Customer !
                         </h4>
 
-                        <div class="mt-5 d-flex justify-content-center">
+                        <div class="mt-3 mt-lg-5 d-flex justify-content-center">
                             <a href="#" class="btn_2 ms-3">Know More <i class="fa-solid fa-arrow-right ms-2"></i></a>
                         </div>
 
@@ -342,7 +342,7 @@ $services = [
         ];
         ?>
 
-       <!-- <section>
+        <!-- <section>
             <div class="containerFull">
                 <h3 class="fontHeading fontWeight700 heading mt-4 text_secondary text-center">
                     New Case Studies
@@ -380,7 +380,7 @@ $services = [
                             Our Latest Event
                         </p>
 
-                        <h4 class="fontHeading fontWeight700 heading mt-4 text_secondary">
+                        <h4 class="fontHeading fontWeight700 heading  mt-2 mt-lg-4 text_secondary">
                             Exclusive Business Conferences
 
                         </h4>
@@ -407,7 +407,7 @@ $services = [
                                     class="fa-solid fa-arrow-right ms-2"></i></a>
                         </div>
                     </div>
-                    <div class="col-lg-5">
+                    <div class="col-lg-5 mt-5">
                         <img class="w-100" src="images/conference.jpg" alt="" />
 
                     </div>
@@ -419,29 +419,29 @@ $services = [
         <section class="benifits_section">
             <div class="containerFull">
                 <div class="row">
-                    <div class="col-lg-6">
+                    <div class="col-lg-6 order-lg-1 order-2 mt-lg-0 mt-3">
                         <div class="benifits_img">
 
                             <img src="images/why.jpg" alt="" />
                         </div>
 
                     </div>
-                    <div class="col-lg-6 ps-lg-5">
+                    <div class="col-lg-6 ps-lg-5 order-lg-2 order-1">
                         <p class="badge">
                             Our Benifits
                         </p>
 
-                        <h4 class="fontHeading fontWeight700 heading mt-4 text_secondary">
+                        <h4 class="fontHeading fontWeight700 heading mt-2  mt-lg-4 text_secondary">
                             Why Choose Our Consultancy
 
                         </h4>
 
-                        <p class="mt-4 text_gray">
+                        <p class="mt-lg-4 mt-3 text_gray">
                             There are many variations of passages of but the majority have in some form, by injected
                             humou or words which don't look even slightly believable of but the majority have suffered.
                         </p>
 
-                        <div class="row mt-5">
+                        <div class="row mt-3 mt-lg-5">
                             <div class="col-lg-6">
                                 <div class="item_why">
 
@@ -452,7 +452,7 @@ $services = [
                                     </h4>
                                 </div>
                             </div>
-                            <div class="col-lg-6">
+                            <div class="col-lg-6 mt-3 mt-lg-0">
                                 <div class="item_why">
 
                                     <img src="images/icons/wealth.png" alt="" />
@@ -577,17 +577,17 @@ $services = [
                             Our testimonials
                         </p>
 
-                        <h4 class="fontHeading fontWeight700 heading mt-4 text_secondary">
+                        <h4 class="fontHeading fontWeight700 heading mt-2 mt-lg-4 text_secondary">
                             What They’re Saying About Agency
 
                         </h4>
 
-                        <p class="mt-4 text_gray">
-                            Real stories from real clients <br/>see what makes us their preferred choice!
+                        <p class="mt-lg-4 mt-2 text_gray">
+                            Real stories from real clients <br />see what makes us their preferred choice!
 
                         </p>
 
-                        <div class="testmonial_btn  d-flex gap-3 mt-4 ">
+                        <div class="testmonial_btn  d-md-flex gap-3 mt-4  d-none">
                             <button class="testmonial-prev shadow ">
                                 <i class="fa-solid fa-angle-left"></i>
                             </button>
@@ -651,7 +651,7 @@ $services = [
 
                         </div>
                     </div>
-                    <div class="col-lg-6 order-1 order-lg-2 ps-lg-5">
+                    <div class="col-lg-6 order-1 order-lg-2 ps-lg-5 ">
                         <div class="rightContact">
                             <p class="badge-contant">Contact us</p>
                             <h3 class="heading fontHeading mt-2 fontWeight700">You can contact us</h3>
@@ -714,35 +714,30 @@ $services = [
         var swiper = new Swiper(".testimonial_slider", {
             spaceBetween: 30,
 
-            slidesPerView: 1.5,
+            // slidesPerView: 1.5,
             loop: true,
             autoplay: {
                 delay: 5000,
                 disableOnInteraction: false,
             },
+            breakpoints: {
 
-            // breakpoints: {
+                300: {
+                    slidesPerView: 1,
+                    spaceBetween: 10
+                },
 
-            //     320: {
-            //         slidesPerView: 2,
-            //         spaceBetween: 10
-            //     },
 
-            //     480: {
-            //         slidesPerView: 2,
-            //         spaceBetween: 20
-            //     },
+                768: {
+                    slidesPerView: 2,
+                    spaceBetween: 30
+                },
+                1024: {
+                    slidesPerView: 1.5,
+                    spaceBetween: 30
+                },
+            },
 
-            //     640: {
-            //         slidesPerView: 3,
-            //         spaceBetween: 30
-            //     },
-
-            //     768: {
-            //         slidesPerView: 4,
-            //         spaceBetween: 30
-            //     }
-            // }
             pagination: {
                 el: ".testimonial-pagination",
                 clickable: true,

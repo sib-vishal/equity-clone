@@ -17,28 +17,31 @@
 								Us</a></li>
 						<li><a class="<?php echo ($page == 'services') ? 'active' : ''; ?>"
 								href="services.php">Services</a></li>
-						<li><a class="<?php echo ($page == 'events') ? 'active' : ''; ?>" href="events.php">Events and
-								Conferences</a></li>
+						<!-- <li><a class="<?php echo ($page == 'events') ? 'active' : ''; ?>" href="events.php">Events and
+								Conferences</a></li> -->
 						<li><a class="<?php echo ($page == 'contact-us') ? 'active' : ''; ?>"
 								href="contact-us.php">Contact Us</a></li>
 					</ul>
-
-
-
-
 				</div>
-				<div class="header_btn">
-					<div class="btn_icon"><svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24"
-							stroke-linecap="round" stroke-linejoin="round" height="1em" width="1em"
-							xmlns="http://www.w3.org/2000/svg">
-							<path
-								d="M15.05 5A5 5 0 0 1 19 8.95M15.05 1A9 9 0 0 1 23 8.94m-1 7.98v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z">
-							</path>
-						</svg></div>
-					<div class="btn_content">
-						<p>Need help? Talk to an expert</p>
-						<h5><a href="tel:12463330079">+1- ( 246 ) 333 - 0079</a></h5>
+				<div class="headerbtn_box">
+
+					<div class="header_btn ">
+						<div class="btn_icon"><svg stroke="currentColor" fill="none" stroke-width="2"
+								viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" height="1em"
+								width="1em" xmlns="http://www.w3.org/2000/svg">
+								<path
+									d="M15.05 5A5 5 0 0 1 19 8.95M15.05 1A9 9 0 0 1 23 8.94m-1 7.98v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z">
+								</path>
+							</svg></div>
+						<div class="btn_content">
+							<p>Need help? Talk to an expert</p>
+							<h5><a href="tel:12463330079">+1- ( 246 ) 333 - 0079</a></h5>
+						</div>
 					</div>
+					<button class="menu_btn d-lg-none" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
+						aria-controls="offcanvasRight">
+						<i class="fa-solid fa-bars"></i>
+					</button>
 				</div>
 
 			</div>
@@ -48,6 +51,47 @@
 
 
 </header>
+
+
+<div class="offcanvas offcanvas-end " tabindex="-1" id="offcanvasRight" aria-labelledby="mobileMenuLabel"
+	aria-modal="true" role="dialog">
+	<div class="offcanvas-header border-bottom">
+		<a href="index.php">
+
+			<img class="w-75" src="images/logo.png" alt="">
+		</a>
+		<button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+	</div>
+	<div class="offcanvas-body pt-3">
+		<ul class="list-unstyled  mobile_menu_item">
+
+
+			<li><a class="<?php echo ($page == 'home') ? 'active' : ''; ?>" href="index.php">Home</a></li>
+			<li><a class="<?php echo ($page == 'about-us') ? 'active' : ''; ?>" href="about-us.php">About
+					Us</a></li>
+			<li><a class="<?php echo ($page == 'services') ? 'active' : ''; ?>" href="services.php">Services</a></li>
+			<!-- <li><a class="<?php echo ($page == 'events') ? 'active' : ''; ?>" href="events.php">Events and
+								Conferences</a></li> -->
+			<li><a class="<?php echo ($page == 'contact-us') ? 'active' : ''; ?>" href="contact-us.php">Contact Us</a>
+			</li>
+		</ul>
+
+	</div>
+	<div class="mobileOther">
+		<p>Should you have inquiries, contact us:</p>
+		<p class="mt-1"><a class="text_primary fontWeight600 heading" href="tel:"><i class="fa fa-phone"></i> 0123456789</a></p>
+
+		<div class="socialLink ">
+			<ul>
+				<li><a href="#"><i class="fab fa-twitter"></i></a></li>
+				<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+				<li><a href="#"><i class="fab fa-youtube"></i></a></li>
+				<li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+			</ul>
+		</div>
+	</div>
+</div>
+
 
 
 

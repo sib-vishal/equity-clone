@@ -9,10 +9,10 @@
 					<p>We build strong global client relationships by assessing each case with a professional approach,
 						ensuring positive outcomes. Our expert team provides detailed insights and forensic analysis,
 						delivering clarity and confidence in every engagement.</p>
-						
-						<h5 class="mt-3 text-white">
-						 License Number : BRN 72517736 (Rockwater Limited)
-						</h5>
+
+					<h5 class="mt-3 text-white">
+						License Number : BRN 72517736 (Rockwater Limited)
+					</h5>
 					<div class="socialLink">
 						<ul>
 							<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
@@ -24,7 +24,7 @@
 				</div>
 			</div>
 
-			<div class="col-lg-4">
+			<div class="col-lg-4 mt-4 mt-lg-0">
 				<div class="itemFooter">
 					<h4 class="sub_heading fontHeading">Quick Links</h4>
 					<div class="footerInnerMenu">
@@ -32,13 +32,13 @@
 							<li><a href="inedex.php">Home</a></li>
 							<li><a href="about-us.php">About Us</a></li>
 							<li><a href="services.php">Services</a></li>
-							<li><a href="events.php">Events and Conferences</a></li>
+							<!-- <li><a href="events.php">Events and Conferences</a></li> -->
 							<li><a href="contact-us.php"> Contact Us</a></li>
 						</ul>
 					</div>
 				</div>
 			</div>
-			<div class="col-lg-4">
+			<div class="col-lg-4  mt-4 mt-lg-0">
 				<div class="itemFooter pe-lg-3">
 					<h4 class="sub_heading fontHeading">Contact</h4>
 					<div class="itemFooterContact">
@@ -48,7 +48,7 @@
 							</div>
 							<div class="rightContact">
 								<small>Address</small>
-								<p>123 Business Avenue, Suite 456, Cityname, Country, 10001</p>
+								<p>International Finance Tower 1 Hong Kong</p>
 							</div>
 						</div>
 						<div class="iconContact mt-4">
@@ -75,7 +75,9 @@
 							</div>
 							<div class="rightContact">
 								<small>Email</small>
-								<p> <a href="mailto:contact@Rockwateraccountantshk.com">contact@Rockwateraccountantshk.com</a></p>
+								<p> <a
+										href="mailto:contact@Rockwateraccountantshk.com">contact@Rockwateraccountantshk.com</a>
+								</p>
 							</div>
 						</div>
 					</div>

@@ -62,7 +62,7 @@
                                         Address
                                     </h5>
                                     <p>
-                                        123 Business Avenue, Suite 456, Cityname, Country, 10001
+                                    International Finance Tower 1 Hong Kong
                                     </p>
 
                                 </div>
@@ -117,7 +117,7 @@
 
 
                     </div>
-                    <div class="col-lg-6 ps-lg-5">
+                    <div class="col-lg-6 ps-lg-5 mt-5 mt-lg-0">
                         <div class="rightContact">
 
                             <h3 class="heading fontHeading mt-2 fontWeight400">Please fill this form</h3>
@@ -168,7 +168,7 @@
             </div>
         </section>
         <div>
-            <iframe class="w-100"
+            <iframe  class="w-100  mapiframe"
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d201411.07131473965!2d72.71412525687607!3d19.08280670615086!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c6306644edc1%3A0x5da4ed8f8d648c69!2sMumbai%2C%20Maharashtra!5e1!3m2!1sen!2sin!4v1742375362808!5m2!1sen!2sin"
                 height="450" style="border:0;" allowfullscreen="" loading="lazy"
                 referrerpolicy="no-referrer-when-downgrade"></iframe>
